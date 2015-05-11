@@ -1,6 +1,7 @@
 {
   "name": "angular-fallback-image",
   "version": "0.1.0",
+  "main": ["src/angular-fallback-image.js"],
   "authors": [
     "Sebastian Rodriguez <sebasrodriguez@gmail.com>"
   ],
