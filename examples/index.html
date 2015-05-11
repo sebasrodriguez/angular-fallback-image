@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="fallback-app">
+
+<head>
+    <title>angular-fallback-image</title>
+     <script src="../bower_components/angular/angular.js"></script>
+     <script src="../src/angular-fallback-image.js"></script>
+     <script src="app.js"></script>
+</head>
+
+<body>
+    <div ng-controller="ExampleController as example">
+        <h1>angular-fallback-image</h1>
+        <img ng-src="{{example.Image}}" sr-fallback="{{example.Placeholder}}" />
+    </div>
+</body>
+
+</html>
