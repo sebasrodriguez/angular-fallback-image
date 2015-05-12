@@ -19,6 +19,9 @@
     "image",
     "fallback"
   ],
+  "dependencies": {
+    "angular": "^1.2.0"
+  },
   "author": "Sebastian Rodriguez <sebasrodriguez@gmail.com>",
   "license": "MIT",
   "bugs": {
