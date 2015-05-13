@@ -1,3 +1,6 @@
+[![Bower version](https://badge.fury.io/bo/angular-fallback-image.svg)](http://badge.fury.io/bo/angular-fallback-image)
+[![npm version](https://badge.fury.io/js/angular-fallback-image.svg)](http://badge.fury.io/js/angular-fallback-image)
+
 # angular-fallback-image
 Angular directive that shows a fallback image when an image returns 404
 
