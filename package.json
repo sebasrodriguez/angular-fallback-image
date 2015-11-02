@@ -1,8 +1,8 @@
 {
   "name": "angular-fallback-image",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Angular directive that shows a fallback image when an image returns 404",
-  "main": "src/angular-fallback-image.js",
+  "main": ["dist/angular-fallback-image.js", "dist/angular-fallback-image.min.js"],
   "directories": {
     "example": "examples"
   },
@@ -27,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/sebasrodriguez/angular-fallback-image/issues"
   },
-  "homepage": "https://github.com/sebasrodriguez/angular-fallback-image"
+  "homepage": "https://github.com/sebasrodriguez/angular-fallback-image",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.2"
+  }
 }
