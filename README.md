@@ -17,3 +17,10 @@ Then on your html you simply use it like this:
 ```
 
 Angular expressions can also be added to the sr-fallback attribute.
+
+If you do not want to set your custom fallback image, you can use default, angular-fallback-image will get a image from [placeholder.it](https://placehold.it/):
+```html
+<img ng-src="{{example.Image}}" sr-fallback width=350 height=150 />
+```
+
+If you do not set width or height of `img`, angular-fallback-image will get the element width and height.
