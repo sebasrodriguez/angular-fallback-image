@@ -16,7 +16,6 @@
 						height = elem[0].offsetHeight;
 						attrs.srFallback = 'http://placehold.it/' + width + 'x' + height;
 					}
-					console.log('attrs.srFallback:', attrs.srFallback);
 					elem.attr('src', attrs.srFallback);
 				});
 			}
