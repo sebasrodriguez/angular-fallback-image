@@ -1,6 +1,6 @@
 {
   "name": "angular-fallback-image",
-  "version": "1.2",
+  "version": "1.2.0",
   "description": "Angular directive that shows a fallback image when an image returns 404",
   "main": "dist/angular-fallback-image.js",
   "directories": {
