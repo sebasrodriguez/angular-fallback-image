@@ -12,6 +12,8 @@
     <div ng-controller="ExampleController as example">
         <h1>angular-fallback-image</h1>
         <img ng-src="{{example.Image}}" sr-fallback="{{example.Placeholder}}" />
+        <h1>default fallback image</h1>
+        <img ng-src="{{example.Image}}" sr-fallback width=350 height=150 />
     </div>
 </body>
 
