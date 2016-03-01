@@ -9,13 +9,13 @@
 
 				element.on('error', function() {
 
-					if(elem.attr('src') === attrs.srFallback && !attrs.srcPlaceHolder) {
-						throw new Error('The supplied fallback image doesn\'t exist');
-					} else {
-						attrs.srFallback = attrs.srcPlaceHolder;
-					}
-
-					if(elem.attr('src') === attrs.srcPlaceHolder) {
+					if(elem.attr('src') === attrs.srFallback) {
+						if(attrs.srcPlacHolder) {
+							attrs.srFallback = attrs.srcPlaceHolder;
+						} else {
+							throw new Error('The supplied fallback image doesn\'t exist');
+						}
+					} else if(elem.attr('src') === attrs.srcPlaceHolder) {
 						throw new Error('The supplied fallback image doesn\'t exist');
 					}
 
